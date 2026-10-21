@@ -175,9 +175,7 @@ export default function App() {
 
       <aside className="side">
         <div className="side-logos">
-          <span className="logo-audio-wrap">
-            <img className="logo-audio" src="/logos/we.png" alt="Audio Technology" />
-          </span>
+          <img className="logo-audio" src="/logos/audio.png" alt="Audio Technology" />
           <img src="/logos/aveva.png" alt="AVEVA" />
         </div>
         {variant !== "vb" ? (
