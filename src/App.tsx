@@ -176,7 +176,6 @@ export default function App() {
       <aside className="side">
         <div className="side-logos">
           <img className="logo-audio" src="/logos/audio.png" alt="Audio Technology" />
-          <img src="/logos/aveva.png" alt="AVEVA" />
         </div>
         {variant !== "vb" ? (
           <button type="button" className="logo-plate" onClick={() => setTab("home")} title="Back to port map">
